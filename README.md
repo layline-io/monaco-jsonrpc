@@ -3,7 +3,7 @@ NPM module to implement communication between a jsonrpc client and server over W
 
 ### Client side connection handling
 ```ts
-import * as rpc from 'vscode-ws-jsonrpc';
+import * as rpc from 'monaco-jsonrpc';
 
 const webSocket = new WebSocket('ws://www.example.com/socketserver');
 rpc.listen({
@@ -18,7 +18,7 @@ rpc.listen({
 
 ### Server side connection handling
 ```ts
-import * as rpc from 'vscode-ws-jsonrpc';
+import * as rpc from 'monaco-jsonrpc';
 
 const socket: rpc.IWebSocket; // open the web socket
 const reader = new rpc.WebSocketMessageReader(socket);
@@ -35,8 +35,8 @@ connection.listen();
 
 ### Server side connection forwarding
 ```ts
-import * as rpc from 'vscode-ws-jsonrpc';
-import * as server from 'vscode-ws-jsonrpc/lib/server';
+import * as rpc from 'monaco-jsonrpc';
+import * as server from 'monaco-jsonrpc/lib/server';
 
 const socket: rpc.IWebSocket; // open the web socket
 const reader = new rpc.WebSocketMessageReader(socket);
@@ -54,4 +54,4 @@ server.forward(socketConnection, serverConnection, message => {
 ```
 
 ## License
-[MIT](https://github.com/TypeFox/vscode-ws-jsonrpc/blob/master/License.txt)
+[MIT](https://github.com/CodinGame/monaco-jsonrpc/blob/master/License.txt)
