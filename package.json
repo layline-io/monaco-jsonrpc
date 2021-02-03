@@ -1,6 +1,6 @@
 {
   "name": "@codingame/monaco-jsonrpc",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "VSCode JSON RPC over WebSocket",
   "author": "TypeFox GmbH (http://www.typefox.io)",
   "license": "MIT",
