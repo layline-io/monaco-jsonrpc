@@ -1,6 +1,6 @@
 {
   "name": "@layline-io/monaco-jsonrpc",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "VSCode JSON RPC over WebSocket",
   "author": "TypeFox GmbH (http://www.typefox.io) --> Forked by layline.io GmbH (https://layline.io)",
   "license": "MIT",
