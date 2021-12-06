@@ -54,4 +54,4 @@ server.forward(socketConnection, serverConnection, message => {
 ```
 
 ## License
-[MIT](https://github.com/CodinGame/monaco-jsonrpc/blob/master/License.txt)
+[MIT](https://github.com/layline-io/monaco-jsonrpc/blob/master/License.txt)
